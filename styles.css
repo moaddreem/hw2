@@ -1,0 +1,127 @@
+/* Basic page style */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: #222222;
+  background-color: #f2f2f2;
+  margin: 0;
+  text-align: left;
+}
+
+/* Header and navigation */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #dddddd;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border: 1px solid #999999;
+}
+
+nav ul {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+/* General link style */
+a {
+  color: #0033cc;
+}
+
+/* Descendant selector for navigation links */
+nav a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
+nav a[aria-current="page"] {
+  color: #990000;
+}
+
+/* Main content */
+main {
+  width: 80vw;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #cccccc;
+}
+
+/* Element selectors */
+h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px gray;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0.8rem 0;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+dl {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #cccccc;
+}
+
+/* Box model for sections/articles */
+section,
+article {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Class selector */
+.highlight {
+  background-color: yellow;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* ID selector */
+#intro {
+  background-color: #eef5ff;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 0.8rem;
+  margin-top: 1rem;
+}

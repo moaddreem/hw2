@@ -23,15 +23,15 @@
   <main>
     <h2>Contact</h2>
 
-    <form action="#" method="post">
+    <form action="#" method="post" onsubmit="return validateContactForm();">
       <p>
         <label for="fullname">Name:</label>
-        <input type="text" id="fullname" name="fullname" required />
+        <input type="text" id="fullname" name="fullname" />
       </p>
 
       <p>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <input type="email" id="email" name="email" />
       </p>
 
       <p>
@@ -55,5 +55,6 @@
   <footer>
     <p>&copy; 2026 Muath - CSC457 HW2</p>
   </footer>
+  <script src="scripts.js"></script>
 </body>
 </html>
